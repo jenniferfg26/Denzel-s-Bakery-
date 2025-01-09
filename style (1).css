@@ -1,0 +1,94 @@
+/* 1)Gives the webpage a backround color of cream, lists and paragraphs are blue, font-family should be verdana */
+body {
+  background-color:#ffefbb;
+  color:#3a8fb3;
+  font-family:verdana;
+}
+/* 2) Makes h1 the color pink and the font cursive */
+
+h1 {
+  color:#ff788f;
+  font-family: cursive;
+  font-size: 45px;
+  font-weight:bolder;
+  background-color: #d8ecff;
+  padding: 15px;
+  border-style: solid;
+  border-radius: 10px;
+}
+/* 3) div for title and description */
+.titledescription {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+ }
+/* 4) div for gallery */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+/* 5) div for each individual pastry */
+.pastry {
+  width: 325px;
+  text-align: center;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: space-between;
+
+}
+/* 6) div for pastry information */
+.pastryinfo {
+  padding: 10px; 
+  border-style: solid;
+  border-width: 2px;
+}
+/* 7) div for pastry instructions */
+.instructions {
+  padding: 10px; 
+  border-style: solid;
+  border-width: 2px;
+  align-items: flex-end;
+  flex-grow: 1;
+ }
+/* 8) pastry paragraph font size */
+.pastry p {
+  font-size: 17px;
+
+}
+/* 9) pastry heading */
+.pastry h2 {
+  margin:10px;
+
+}
+/* 10) images of pastries width */
+.pastry img {
+  width: 95%;
+
+}
+
+/* 11) Makes h2 the color pink and the font cursive */
+h2 {
+  color:#ff788f;
+  font-family:cursive;
+  font-size: 20px9;
+}
+
+/* 12) Makes the paragraphs the color blue */
+p {
+  color:#3a8fb3;
+  
+}
+
+/* 13) Makes the images float inherit, light pink dotted border, and width of pictures are 200px   */
+img {
+  width:200px;
+  float:inherit;
+  border-style:dotted;
+  border-width: 4px;
+  border-color: #ffb9dc;
+}
+
